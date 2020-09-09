@@ -9,7 +9,6 @@ import com.bio.terapeut.dao.AppointmentDao;
 import com.bio.terapeut.model.Appointment;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Component
 @AllArgsConstructor

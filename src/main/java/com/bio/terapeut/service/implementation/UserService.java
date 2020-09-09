@@ -11,7 +11,6 @@ import com.bio.terapeut.repository.implementations.UserRepository;
 import com.bio.terapeut.service.BaseService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Service
 @AllArgsConstructor

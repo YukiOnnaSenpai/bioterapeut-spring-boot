@@ -2,19 +2,15 @@ package com.bio.terapeut.service.implementation;
 
 import java.util.List;
 
-
 import org.springframework.stereotype.Service;
 
 import com.bio.terapeut.dao.LabelDao;
 import com.bio.terapeut.dao.converter.LabelConverter;
-import com.bio.terapeut.dao.converter.UserConverter;
 import com.bio.terapeut.model.Label;
 import com.bio.terapeut.repository.implementations.LabelRepository;
-import com.bio.terapeut.repository.implementations.UserRepository;
 import com.bio.terapeut.service.BaseService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Service
 @AllArgsConstructor

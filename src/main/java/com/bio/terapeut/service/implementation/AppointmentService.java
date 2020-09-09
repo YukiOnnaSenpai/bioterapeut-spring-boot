@@ -8,14 +8,11 @@ import org.springframework.web.server.ResponseStatusException;
 
 import com.bio.terapeut.dao.AppointmentDao;
 import com.bio.terapeut.dao.converter.AppointmentConverter;
-import com.bio.terapeut.dao.converter.UserConverter;
 import com.bio.terapeut.model.Appointment;
 import com.bio.terapeut.repository.implementations.AppointmentRepository;
-import com.bio.terapeut.repository.implementations.UserRepository;
 import com.bio.terapeut.service.BaseService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 
 @Service
@@ -47,5 +44,4 @@ public class AppointmentService implements BaseService<AppointmentDao, Long>{
 	public AppointmentDao getOneById(Long id) {
 		return converter.entityToDao(repository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NO_CONTENT)));
 	}
-
 }

@@ -6,14 +6,11 @@ import org.springframework.stereotype.Service;
 
 import com.bio.terapeut.dao.LocationDao;
 import com.bio.terapeut.dao.converter.LocationConverter;
-import com.bio.terapeut.dao.converter.UserConverter;
 import com.bio.terapeut.model.Location;
 import com.bio.terapeut.repository.implementations.LocationRepository;
-import com.bio.terapeut.repository.implementations.UserRepository;
 import com.bio.terapeut.service.BaseService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Service
 @AllArgsConstructor

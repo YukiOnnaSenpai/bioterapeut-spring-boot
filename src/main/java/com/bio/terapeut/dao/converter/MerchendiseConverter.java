@@ -9,7 +9,6 @@ import com.bio.terapeut.dao.MerchendiseDao;
 import com.bio.terapeut.model.Merchendise;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Component
 @AllArgsConstructor

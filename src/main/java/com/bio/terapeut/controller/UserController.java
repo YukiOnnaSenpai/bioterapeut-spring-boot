@@ -17,7 +17,6 @@ import com.bio.terapeut.dao.UserDao;
 import com.bio.terapeut.service.implementation.UserService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @RestController
 @AllArgsConstructor

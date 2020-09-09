@@ -6,7 +6,6 @@ import com.bio.terapeut.dao.RelationUADao;
 import com.bio.terapeut.model.RelationUserAppointment;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Component
 @AllArgsConstructor

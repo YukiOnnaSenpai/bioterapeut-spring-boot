@@ -6,14 +6,11 @@ import org.springframework.stereotype.Service;
 
 import com.bio.terapeut.dao.MerchendiseDao;
 import com.bio.terapeut.dao.converter.MerchendiseConverter;
-import com.bio.terapeut.dao.converter.UserConverter;
 import com.bio.terapeut.model.Merchendise;
 import com.bio.terapeut.repository.implementations.MerchendiseRepository;
-import com.bio.terapeut.repository.implementations.UserRepository;
 import com.bio.terapeut.service.BaseService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Service
 @AllArgsConstructor

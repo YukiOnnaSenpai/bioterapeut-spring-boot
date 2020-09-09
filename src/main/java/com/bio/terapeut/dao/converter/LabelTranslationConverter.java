@@ -9,7 +9,6 @@ import com.bio.terapeut.dao.LabelTranslationDao;
 import com.bio.terapeut.model.LabelTranslation;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @Component
 @AllArgsConstructor

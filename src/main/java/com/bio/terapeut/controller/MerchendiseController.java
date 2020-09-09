@@ -14,12 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bio.terapeut.dao.MerchendiseDao;
-import com.bio.terapeut.dao.converter.UserConverter;
-import com.bio.terapeut.repository.implementations.UserRepository;
 import com.bio.terapeut.service.implementation.MerchendiseService;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @RestController
 @AllArgsConstructor
